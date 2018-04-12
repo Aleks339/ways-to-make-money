@@ -1,0 +1,77 @@
+body {
+  margin-top: -40px;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+body .section_way-to-make_money {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/way-to-make-money/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+body .section_way-to-make_money .section_way-to-make_money--header {
+  font-size: 48px;
+  font-family: "PFDinTextPro";
+  color: #171717;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 20px;
+}
+body .section_way-to-make_money .section_way-to-make_money--item-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+body .section_way-to-make_money .section_way-to-make_money--item-wrapper .section_way-to-make_money--item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/way-to-make-money/bg-circle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 250px;
+  height: 250px;
+}
+body .section_way-to-make_money .section_way-to-make_money--item-wrapper .section_way-to-make_money--item h3 {
+  font-size: 28px;
+  font-family: "PFDinTextPro";
+  color: #242424;
+  line-height: 1.2;
+  text-align: center;
+}
+body .section_description-of-way {
+  background-image: url(../img/bg-trade.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  margin-top: -16px;
+}
+body .section_description-of-way .tab {
+  overflow: hidden;
+}
+body .section_description-of-way .tab .tablinks {
+  line-height: 1.2;
+  text-align: left;
+  padding-top: 10px;
+  font-family: "PFDinTextPro";
+  color: rgba(46, 46, 46, 0.8);
+  font-size: 28px;
+  cursor: pointer;
+}
+body .section_description-of-way .tabcontent {
+  display: none;
+  animation: fadeEffect 1s;
+}
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

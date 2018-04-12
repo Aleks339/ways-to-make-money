@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class = "section_way-to-make_money">
+        <h2 class = "section_way-to-make_money--header">Выберите способ заработка</h2>
+        <div class="section_way-to-make_money--item-wrapper">
+            <div class = "section_way-to-make_money--item" id="defaultOpen">
+                <img src="img/way-to-make-money/trade-icon.png" alt="">
+                <h3>Торговать</h3>
+            </div>
+            <div class = "section_way-to-make_money--item">
+                <img src="img/way-to-make-money/invest-icon.png" alt="">
+                <h3>Инвестировать</h3>
+            </div>
+            <div class = "section_way-to-make_money--item">
+                <img src="img/way-to-make-money/look-for-investors-icon.png" alt="">
+                <h3>Привлекать инвесторов</h3>
+            </div>
+        </div>
+    </section>
+    <section class = "section_description-of-way">
+        <nav class = "section_description-of-way--nav">
+           <div class="tab">
+               <div class="tablinks" onclick="openItem(event, 'trade')">Торговать</div>
+                <div class="tablinks" onclick="openItem(event, 'invest')">Инвестировать</div>
+                <div class="tablinks" onclick="openItem(event, 'look-for-investors')">Привлекать инвесторов</div>
+           </div>                   
+           <article class="section_description-of-way--article-wrapper tabcontent" id="trade">
+                <p class = "section_description-of-way--leading-paragraph">Eсли вы ищете пассивный доход и предпочитаете, чтобы деньги для вас зарабатывал тот, кто умеет это делать, тогда попробуйте ЛАММ. ЛАММ - это сервим копирования сделок успешных трейдеров. Должность ни чем не ограничена!</p>
+                <h3 class = "section_description-of-way--header">Как это работает?</h3>
+                <ol class = "section_description-of-way--list">
+                    <li class = "section_description-of-way--item">Вы выбираете управляющего из рейтинга по фильтру Options</li>
+                    <li class = "section_description-of-way--item">Подключаете свой счёт к счёту Управляющего</li>
+                    <li class = "section_description-of-way--item">На вашем счёте начинается копирование сделок</li>
+                    <li class = "section_description-of-way--item">Обратите внимание, что вы не перечисляете свои деньги Управляющему. Все ваши средства остаются на Вашем счёте</li>
+                    <li class = "section_description-of-way--item">Вы можете подключиться к нескольким Управляющим одновременно</li>
+                    <li class = "section_description-of-way--item">Вы можете отключится от Управляющих в любой момент</li>
+                </ol>
+                <div class = "section_description-of-way--button">Продолжить</div>
+           </article>
+        </nav>
+    </section>
+    <script src="js/script.js"></script>
+    <script>
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+</html>
